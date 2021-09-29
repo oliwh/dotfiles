@@ -7,5 +7,6 @@
 
 alias sudo='doas'
 alias ls='ls -a --color=auto'
+alias reboot='systemctl reboot -i'
 
 PS1='[\u@\h \W]\$ '
