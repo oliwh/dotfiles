@@ -1,6 +1,6 @@
 [submodule "dwm"]
-	path = dwm
+	path = .dwm
 	url = https://github.com/Doomboom589/dwm
 [submodule "st"]
-	path = st
+	path = .st
 	url = https://github.com/Doomboom589/st

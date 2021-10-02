@@ -5,11 +5,17 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+#Generic
 alias sudo='doas'
 alias ls='ls -a --color=auto'
 alias reboot='systemctl reboot -i'
 alias vim='nvim'
 alias neo='neofetch'
+alias cat='bat'
+
+#Git
+alias ginit='git init'
+alias gadd='git add'
 
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
