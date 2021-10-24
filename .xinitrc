@@ -1,2 +1,3 @@
-vmware-user
-VBoxClient-all
+exec dwm
+exec dunst
+exec dwmbar
