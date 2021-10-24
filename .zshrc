@@ -7,6 +7,7 @@ fi
 
 #Generic
 alias sudo='doas'
+alias pacman='doas pacman'
 alias ls='ls -a --color=auto'
 alias reboot='systemctl reboot -i'
 alias vim='nvim'
