@@ -18,6 +18,7 @@ alias cat='bat'
 alias ginit='git init'
 alias gadd='git add'
 alias gstat='git status'
+alias gcommit='git commit -m'
 
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
