@@ -1,5 +1,5 @@
 ~/.fehbg &
-exec dwm
-exec dunst
+exec picom -b &
+exec dunst &
 exec dwmbar &
-exec picom -b
+exec dwm
