@@ -11,7 +11,6 @@ alias pacman='doas pacman'
 alias ls='ls -a --color=auto'
 alias reboot='systemctl reboot -i'
 alias vim='nvim'
-alias neo='neofetch'
 alias cat='bat'
 
 #Git

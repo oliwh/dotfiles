@@ -1,5 +1,7 @@
+export AWT_TOOLKIT=MToolkit
+
 ~/.fehbg &
 exec picom -b &
 exec dunst &
-exec dwmbar &
+exec slstatus &
 exec dwm
