@@ -16,7 +16,7 @@ alias cat='bat'
 #Git
 alias ginit='git init'
 alias gadd='git add'
-alias gstat='git status | grep -E "modified|new"'
+alias gstat='git status | grep -E "modified|new|deleted"'
 alias gcommit='git commit -m'
 
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
