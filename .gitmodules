@@ -4,3 +4,9 @@
 [submodule ".st"]
 	path = .st
 	url = https://github.com/Doomboom589/st
+[submodule "slstatus"]
+	path = slstatus
+	url = https://github.com/Doomboom589/slstatus
+[submodule ".slstatus"]
+	path = .slstatus
+	url = https://github.com/Doomboom589/slstatus
