@@ -5,15 +5,14 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-#Generic
+#Generic alias
 alias sudo='doas'
-alias pacman='doas pacman'
 alias ls='ls -a --color=auto'
 alias reboot='systemctl reboot -i'
 alias vim='nvim'
 alias cat='bat'
 
-#Git
+#Git alias
 alias ginit='git init'
 alias gadd='git add'
 alias gstat='git status | grep -E "modified|new|deleted"'
