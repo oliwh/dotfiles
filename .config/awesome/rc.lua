@@ -313,6 +313,8 @@ globalkeys = gears.table.join(
     -- Custom program
     awful.key({                   }, "Print", function() awful.util.spawn("flameshot gui")       end,
     	      {description = "Print screen", group = "controls"}),
+    awful.key({	modkey,		  }, "Print", function() awful.util.spawn("picket") end,
+	      {description = "Pick colour",  group = "controls"}),
 
     -- Prompt
     awful.key({ modkey },            "r",     function () awful.screen.focused().mypromptbox:run() end,
@@ -478,7 +480,8 @@ awful.rules.rules = {
           "Tor Browser", -- Needs a fixed window size to avoid fingerprinting by screen size.
           "Wpa_gui",
           "veromix",
-          "xtightvncviewer"},
+          "xtightvncviewer",
+  	  "Picket"},
 
         -- Note that the name property shown in xprop might be set slightly after creation of the client
         -- and the name shown there might not match defined rules here.
