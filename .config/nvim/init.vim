@@ -12,6 +12,7 @@ Plug 'cespare/vim-toml'
 Plug 'navarasu/onedark.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
+Plug 'lewis6991/gitsigns.nvim'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -30,4 +31,9 @@ require('lualine').setup {
     -- ... your lualine config
   }
 }
+END
+
+" Setup gitsigns
+lua << END
+require('gitsigns').setup()
 END
