@@ -13,27 +13,37 @@ Plug 'navarasu/onedark.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'lewis6991/gitsigns.nvim'
+Plug 'dense-analysis/ale'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
 " Set colour scheme
-let g:onedark_config = {
-    \ 'style': 'darker',
-\}
+let g:onedark_config = { 'style': 'darker', }
 colorscheme onedark
 
-" Setup lualine
+" Lualine
 lua << END
 require('lualine').setup {
   options = {
-    theme = 'auto'
-    -- ... your lualine config
-  }
+    theme = 'ayu_mirage',
+    component_separators = ' /',
+    section_separators = { left = '', right = '' }
+    }
 }
 END
 
-" Setup gitsigns
+" Gitsigns
+lua require('gitsigns').setup()
+
+" TS Rainbow
 lua << END
-require('gitsigns').setup()
+rainbow = {
+    enable = true,
+    extended_mode = true, 
+  }
 END
+
+" Nerdtree
+let NERDTreeShowHidden = 1
+nnoremap <C-t> :NERDTreeToggle<CR>
