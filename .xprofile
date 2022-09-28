@@ -1,4 +1,5 @@
 #!/bin/sh
 
+exec nm-applet &
 exec picom &
 exec ~/.startup/pipewire.sh &

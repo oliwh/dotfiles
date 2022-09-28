@@ -1,5 +1,2 @@
 [Desktop]
 Session=awesome
-
-exec picom &
-exec ~/.startup/pipewire.sh

@@ -7,9 +7,9 @@ Plug 'preservim/nerdtree'
 Plug 'Townk/vim-autoclose'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'p00f/nvim-ts-rainbow'
-Plug 'ap/vim-css-color'
 Plug 'cespare/vim-toml'
 Plug 'navarasu/onedark.nvim'
+Plug 'ap/vim-css-color'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'lewis6991/gitsigns.nvim'
@@ -26,7 +26,7 @@ colorscheme onedark
 lua << END
 require('lualine').setup {
   options = {
-    theme = 'ayu_mirage',
+    theme = 'onedark',
     component_separators = ' /',
     section_separators = { left = '', right = '' }
     }
