@@ -119,10 +119,9 @@ theme.taglist_colour = {
 	theme.onedarkBlue,
 	theme.onedarkLYellow,
 	theme.onedarkMagenta,
-	theme.onedarkDRed,
+	theme.onedarkCyan,
 }
 theme.taglist_bg_occupied = theme.bg_normal
---theme.taglist_fg_occupied = theme.onedarkGreen
 theme.taglist_bg_empty = theme.bg_normal
 theme.taglist_fg_empty = theme.onedarkWhite
 theme.taglist_bg_urgent = theme.bg_normal
