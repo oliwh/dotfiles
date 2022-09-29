@@ -361,7 +361,7 @@ globalkeys = gears.table.join(
 
     -- the "framework" key next to delete - launches a power menu script
     awful.key({}, "XF86AudioMedia",
-        function () awful.spawn.with_shell("~/.config/awesomeu/power_menu.sh") end,
+        function () awful.spawn.with_shell("~/.config/awesome/power_menu.sh") end,
         {description = "lock the screen", group = "function keys"}),
 
 

@@ -108,18 +108,6 @@ theme.taglist_text_occupied = {" ", "", "", "", "", "", "",
 theme.taglist_text_focused  = {" ", "", "", "", "", "", "", "", ""}
 theme.taglist_text_urgent   = {" ", "", "", "", "", "", "", "", ""}
 
---local switch = {
---    [1] = theme.onedarkLRed,
---    [2] = theme.onedarkGreen,
---    [3] = theme.onedarkLYellow,
---    [4] = theme.onedarkLYellow,
---    [5] = theme.onedarkLYellow,
---    [6] = theme.onedarkLYellow,
---    [7] = theme.onedarkLYellow,
---    [8] = theme.onedarkLYellow,
---    [9] = theme.onedarkLYellow
---}
-
 -- theme.taglist_font = 'Iosevka 20'
 theme.taglist_bg_focus = theme.bg_normal
 theme.taglist_colour = {
