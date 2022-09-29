@@ -2,7 +2,7 @@
 
 DMENU="dmenu"
 
-case "$(printf "lock\\nsuspend\\nhibernate\\nreboot\\npoweroff" | $DMENU )" in
+case "$(printf "poweroff\\nlock\\nsuspend\\nhibernate\\nreboot" | $DMENU )" in
     lock) i3lock ;;
     suspend) loginctl suspend ;;
     hibernate) loginctl hibernate ;;
