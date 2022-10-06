@@ -84,7 +84,7 @@ theme.menu_submenu_icon = theme_path.."../defaults/submenu.png"
 theme.menu_height = dpi(15)
 theme.menu_width  = dpi(100)
 
-theme.wallpaper   = theme_path.."wallpaper.jpg"
+theme.wallpaper   = theme_path.."wallpaper/wallpaper.jpg"
 theme.background  = theme.onedarkBlack
 
 -- Generate Awesome icon:
