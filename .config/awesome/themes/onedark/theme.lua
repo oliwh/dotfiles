@@ -26,7 +26,7 @@ theme.onedarkCyan    = "#56b6c2"
 theme.onedarkDGrey   = "#4b5263"
 theme.onedarkLGrey   = "#5c6370"
 
-theme.font          = "Iosevka Medium 16"
+theme.font          = "Iosevka Medium 10"
 theme.transparent   = "#00000000"
 
 theme.bg_normal     = theme.onedarkBlack
@@ -97,7 +97,7 @@ theme.awesome_icon = theme_assets.awesome_icon(
 theme.icon_theme = nil
 
 
-theme.taglist_text_font = "JetBrains  Mono 20"
+theme.taglist_text_font = "JetBrains  Mono 15"
 -- theme.taglist_text_empty    =  {"","","","","","","","",""}
 -- theme.taglist_text_occupied =  {"","","","","","","","",""}
 -- theme.taglist_text_focused  = {"","","","","","","","",""}
