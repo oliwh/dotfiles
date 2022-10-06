@@ -293,6 +293,10 @@ globalkeys = gears.table.join(
 
 -- Custom keybindings
 
+    awful.key({ modkey}, "Print", function () awful.spawn.with_shell("picket &") end,
+              {description = "Colour Picker", group = "utility"}),
+
+
     awful.key({ modkey, "Shift"}, "p", function () awful.spawn.with_shell("~/.config/awesome/power_menu.sh") end,
               {description = "Power menu", group = "utility"}),
 
@@ -358,12 +362,6 @@ globalkeys = gears.table.join(
     awful.key({"Control"}, "XF86MonBrightnessDown",
         function () awful.spawn.with_shell("xbacklight -dec 1") end,
         {description = "decrease backlight (1)", group = "function keys"}),
-
-    -- the "framework" key next to delete - launches a power menu script
-    awful.key({}, "XF86AudioMedia",
-        function () awful.spawn.with_shell("~/.config/awesome/power_menu.sh") end,
-        {description = "lock the screen", group = "function keys"}),
-
 
     awful.key({ modkey, "Shift"}, "space", function ()
         mykeyboardlayout.next_layout()
@@ -634,6 +632,7 @@ awful.rules.rules = {
           "copyq",  -- Includes session name in class.
           "pinentry",
           "origin.exe", -- Origin client
+	  "picket",
         },
         class = {
           "Arandr",
