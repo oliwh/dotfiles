@@ -14,6 +14,8 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'dense-analysis/ale'
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'akinsho/bufferline.nvim', { 'tag': 'v3.*' }
 
 
 " List ends here. Plugins become visible to Vim after this call.
@@ -59,3 +61,22 @@ let g:rainbow_active = 1
 " Nerdtree
 let NERDTreeShowHidden = 1
 nnoremap <C-t> :NERDTreeToggle<CR>
+
+" tab settings
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set softtabstop=4
+" TAB in general mode will move to text buffer
+nnoremap <TAB> :bnext<CR>
+" SHIFT-TAB will go back
+nnoremap <S-TAB> :bprevious<CR>
+" Better tabbing
+vnoremap < <gv
+vnoremap > >gv
+
+" Bufferline
+set termguicolors
+lua << EOF
+require("bufferline").setup{}
+EOF
