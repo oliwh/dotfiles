@@ -84,11 +84,11 @@ theme.menu_submenu_icon = theme_path.."../defaults/submenu.png"
 theme.menu_height = dpi(15)
 theme.menu_width  = dpi(100)
 
-wpimage = {"forest-fox.jpeg", "forest.jpeg", "wallpaper.jpg", "artix-black-4k.png", "fuji.png", "waves.png"}
+wpimage = {"forest-fox.jpeg", "forest.jpeg", "wallpaper.jpg", "artix-black-4k.png", "fuji.png", "waves.png", "stallman1.png"}
 
 math.randomseed(os.time())
 
-theme.wallpaper   = theme_path.."wallpaper/"..wpimage[math.random(1, 6)]
+theme.wallpaper   = theme_path.."wallpaper/"..wpimage[math.random(1, 7)]
 theme.background  = theme.onedarkBlack
 
 -- Generate Awesome icon:
