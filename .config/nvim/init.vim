@@ -8,7 +8,8 @@ Plug 'Townk/vim-autoclose'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'p00f/nvim-ts-rainbow'
 Plug 'cespare/vim-toml'
-Plug 'navarasu/onedark.nvim'
+" Plug 'navarasu/onedark.nvim'
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'ap/vim-css-color'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
@@ -25,15 +26,13 @@ syntax enable
 
 
 " Set colour scheme
-let g:onedark_config = { 'style': 'darker', }
-colorscheme onedark
-
+colorscheme catppuccin-mocha " catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
 
 " Lualine
 lua << END
 require('lualine').setup {
   options = {
-    theme = 'onedark',
+    theme = 'palenight',
     component_separators = ' /',
     section_separators = { left = '', right = '' }
     }
