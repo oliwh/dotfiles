@@ -46,7 +46,7 @@ lua require('gitsigns').setup()
 
 " TS Rainbow
 lua << END
-require("nvim-treesitter.configs").setup {
+require('nvim-treesitter.configs').setup {
   highlight = {},
   rainbow = {
     enable = true,
