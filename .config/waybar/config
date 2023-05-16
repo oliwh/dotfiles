@@ -32,7 +32,8 @@
         "format": "{icon}",
         "format-icons": ["", "", "", "", "", "", "", "", ""],
         "on-scroll-up": "brightnessctl -c backlight set 1%-",
-        "on-scroll-down": "brightnessctl -c backlight set +1%"
+        "on-scroll-down": "brightnessctl -c backlight set +1%",
+        "tooltip": false,
     },
     "battery": {
         "states": {
@@ -69,7 +70,7 @@
         "format-wifi": "  {essid} ({signalStrength}%)", // Icon: wifi
         "format-ethernet": "  {ifname}: {ipaddr}/{cidr}", // Icon: ethernet
         "format-disconnected": "⚠  Disconnected",
-        "tooltip-forma}": "{ifname}: {ipaddr}",
+        "tooltip-format}": "{ifname}: {ipaddr}",
         "on-click": "nm-applet",
     },
 }
