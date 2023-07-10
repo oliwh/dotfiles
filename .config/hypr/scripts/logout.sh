@@ -1,2 +1,2 @@
 #!/bin/sh
-wlogout --protocol layer-shell -b 5 -T 525 -B 525
+wlogout --protocol layer-shell -b 5 -T 550 -B 550
