@@ -8,13 +8,18 @@
     "modules-center": ["hyprland/window"],
     "modules-right": ["tray", "pulseaudio", "backlight", "battery", "clock", "network", "custom/power"],
     "wlr/workspaces": {
+         "active-only": false,
+         "all-outputs": true,
          "disable-scroll": true,
          "sort-by-name": true,
-         "format": " {icon} ",
+         "format": "{icon}",
          "on-scroll-up": "hyprctl dispatch workspace e+1",
          "on-scroll-down": "hyprctl dispatch workspace e-1",
          "format-icons": {
-             "default": "",
+    //      "default": "",
+            "urgent": "",
+			"active": "",
+			"default": "󰧞",
          },
      },
     "tray": {
@@ -38,7 +43,7 @@
     "battery": {
         "states": {
             "warning": 30,
-            "critical": 15,
+            "critical": 15
         },
         "format": "{capacity}% {icon}",
         "format-charging": "{capacity}% ",
