@@ -62,12 +62,12 @@
     },
     "custom/power": {
         "tooltip": false,
-        "on-click": "~/.config/hypr/scripts/logout.sh",
+        "on-click": "sleep 0.1 && ~/.config/hypr/scripts/logout.sh",
         "format": "襤"
     },
     "custom/launcher": {
         "format":" ",
-        "on-click": "exec rofi -show drun",
+        "on-click": "sleep 0.1 && exec rofi -show drun",
         "tooltip": false,
     },
     "network": {

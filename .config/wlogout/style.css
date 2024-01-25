@@ -23,7 +23,7 @@ button:hover {
 button:focus {
     background-color: #cba6f7;
     color: #1e1e2e;
-    border: 20px solid rgb(203, 166, 247);
+    border: 30px solid rgb(203, 166, 247);
 }
 
 #lock {
